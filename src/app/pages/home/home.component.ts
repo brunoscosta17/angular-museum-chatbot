@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ArrowRightComponent } from '../../components/arrow-right/arrow-right.component';
-import { SparkleComponent } from '../../components/sparkle/sparkle.component';
+import { ArrowRightComponent } from '../../components/icons/arrow-right/arrow-right.component';
+import { SparkleComponent } from '../../components/icons/sparkle/sparkle.component';
 import { Router } from '@angular/router';
 
 @Component({

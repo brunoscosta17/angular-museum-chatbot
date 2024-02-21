@@ -1,1 +1,15 @@
-<p>chat works!</p>
+<main class="chat-wrapper">
+    <header>
+        <button (click)="back()">
+            <app-arrow-left class="arrow-left" />
+        </button>
+        <app-museum class="museum"/>
+        <div class="status">
+            <p>Museum</p>
+            <span>• Online</span>
+        </div>
+    </header>
+    <section>
+        <app-chat-suggestions></app-chat-suggestions>
+    </section>
+</main>
