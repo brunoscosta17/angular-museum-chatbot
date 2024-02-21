@@ -8,8 +8,8 @@
             <span>{{ item.description }}</span>
         </div>
         <ul class="suggestion-list">
-            <li *ngFor="let questions of item.questions">
-                {{ questions }}
+            <li *ngFor="let question of item.questions" (click)="selectQuestion(question)">
+                {{ question }}
             </li>
         </ul>
     </div>

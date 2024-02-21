@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { QuestionComponent } from '../icons/question/question.component';
 import { CuriosityComponent } from '../icons/curiosity/curiosity.component';
 import { HistoryComponent } from '../icons/history/history.component';
@@ -17,6 +17,8 @@ import { HistoryComponent } from '../icons/history/history.component';
   styleUrl: './chat-suggestions.component.scss'
 })
 export class ChatSuggestionsComponent {
+
+  @Output() questionSelected: EventEmitter<string> = new EventEmitter();
 
   suggestionsTopics: any[] = [
     {
@@ -47,21 +49,8 @@ export class ChatSuggestionsComponent {
     }
   ];
 
-  initialQuestions: String[] = [
-    'How much does it cost to enter the museum?',
-    'When the museum is open?'
-  ];
-
-  initialCuriosities: String[] = [
-    'The museum is open from 9am to 5pm, Monday to Friday.',
-    'How many rooms are there in the museum?',
-    'How many pieces are displayed in the museum?'
-  ];
-
-  initialHistories: String[] = [
-    'When the museum was founded?',
-    'What the architectonic style of the museum?',
-    'Who was the architect of the museum?'
-  ];
+  selectQuestion(question: string): void {
+    this.questionSelected.emit(question);
+  }
 
 }
