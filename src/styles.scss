@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #FF8966;
+    --primary-text: #757575;
+    --bold-text: #3E3E3E;
+    --online-color: #3ABF38;
+    --primary-bg: #FFF;
+    --secondary-bg: #F4F4F4;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
