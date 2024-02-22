@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
+## Figma
+https://www.figma.com/file/04acasjWjQaVobs2nd8bMC/Chatbot-Museu-do-Doce?type=design&node-id=0%3A1&mode=design&t=Px365wZYxBw6iAhS-1
+
+## Backend
+https://jdzrrnv67dcnspexppkqyugwli0iaykg.lambda-url.us-east-1.on.aws/
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
