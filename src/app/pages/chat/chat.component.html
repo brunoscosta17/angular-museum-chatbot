@@ -10,7 +10,6 @@
         </div>
     </header>
     <section class="chat-content">
-        <pre>{{ questions }}</pre>
         <app-chat-suggestions *ngIf="questions.length === 0" (questionSelected)="sendSuggestedQuest($event)" />
         <app-chat-dialog *ngIf="questions.length > 0" [messages]="questions" />
     </section>

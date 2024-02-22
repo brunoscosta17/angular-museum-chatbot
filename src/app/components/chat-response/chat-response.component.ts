@@ -15,4 +15,6 @@ export class ChatResponseComponent {
 
   @Input() message: Message = {} as Message;
 
+  constructor() { console.log('ChatResponseComponent', this.message); }
+
 }
