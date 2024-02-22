@@ -1,6 +1,6 @@
 # AngularMuseumChatbot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1. This ChatBot aims to facilitate access to information, engage visitors and promote accessibility to the Museu do Doce de Pelotas.
 
 ## Figma
 https://www.figma.com/file/04acasjWjQaVobs2nd8bMC/Chatbot-Museu-do-Doce?type=design&node-id=0%3A1&mode=design&t=Px365wZYxBw6iAhS-1
